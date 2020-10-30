@@ -25,4 +25,4 @@ Opera - https://addons.opera.com/en/extensions/details/just-bitcoin-ticker-pro/
 
 
 
-![concept](https://raw.githubusercontent.com/nfl0/Bitcoin-lightweight-ticker/master/Docs/Screenshot.png)
+![concept](https://gitlab.com/nfl0/crypto-price-ticker-extension/-/raw/master/Docs/Screenshot.png)
