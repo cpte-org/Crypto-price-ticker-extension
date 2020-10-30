@@ -1,5 +1,7 @@
 # Bitcoin-lightweight-ticker
 
+![concept](https://gitlab.com/nfl0/crypto-price-ticker-extension/-/raw/master/Docs/Demo.gif)
+
 Super lightweight minimalist browser extension that displays the current price in USD for multiple cryptocurrencies.
 
 Available options
