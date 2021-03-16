@@ -23,9 +23,15 @@ Price data pulled from the reliable top notch Coingecko's v3 API (10 requests/se
 
 Firefox - https://addons.mozilla.org/en-US/firefox/addon/btc/
 
-Chromium - http://comingsoon.io/
+Chromium - https://chrome.google.com/webstore/detail/edocckdppcejnpljkgohkdgniefflgfo
 
 Opera - https://addons.opera.com/en/extensions/details/just-bitcoin-ticker-pro/
+
+
+`pip install gitpython`
+`pip install slimit`
+
+* TO-DO: Create options page -> Select Price source (API)
 
 
 
