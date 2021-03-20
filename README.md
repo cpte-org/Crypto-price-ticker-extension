@@ -1,4 +1,4 @@
-# Bitcoin-lightweight-ticker
+# Crypto-Price-Ticker
 
 
 <p align="center">
