@@ -31,9 +31,11 @@ Opera - https://addons.opera.com/en/extensions/details/just-bitcoin-ticker-pro/
 `pip install gitpython`
 `pip install slimit`
 
+TO-DO(s):
+
 * Manifest V3 migration
 
-* TO-DO: Create "options" page:
+* Create "options" page:
     * Select Price source (API)
     * Select Currency
     * Enable/Disable trend's color indicator
