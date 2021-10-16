@@ -17,8 +17,8 @@ import time
 
 
 #Coins names
-coinName = ["ethereum","ethereum-classic","bitcoin-cash","bitcoin-cash-sv","bitcoin","litecoin","zcash","neo","cardano","monero"]
-coinSuffix = ["ETH","ETC","BCH","BSV","BTC","LTC","ZEC","NEO","ADA","XMR"]
+coinName = ["ethereum","ethereum-classic","bitcoin-cash","bitcoin-cash-sv","bitcoin","litecoin","zcash","neo","cardano","monero","thorchain"]
+coinSuffix = ["ETH","ETC","BCH","BSV","BTC","LTC","ZEC","NEO","ADA","XMR","RUNE"]
 
 #DIR
 logoGit="https://gitlab.com/nfl0/crypto-logos.git"
@@ -96,7 +96,7 @@ for num, folder in enumerate(coinSuffix, start=0):
 		#Minify background.js
 
 
-		url = 'https://javascript-minifier.com/raw'
+		url = 'https://www.toptal.com/developers/javascript-minifier/raw'
 		data = {'input': open(coinFolder+"background.js", 'rb').read()}
 		response = requests.post(url, data=data)
 
