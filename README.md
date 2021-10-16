@@ -18,6 +18,7 @@ Available options
  - NEO
  - Cardano
  - Monero
+ - Rune
 
 Price data pulled from the reliable top notch Coingecko's v3 API (10 requests/second).
 
