@@ -17,8 +17,8 @@ import time
 
 
 #Coins names
-coinName = ["ethereum","ethereum-classic","bitcoin-cash","bitcoin-cash-sv","bitcoin","litecoin","zcash","neo","cardano","monero","thorchain", "dogecoin"]
-coinSuffix = ["ETH","ETC","BCH","BSV","BTC","LTC","ZEC","NEO","ADA","XMR","RUNE","DOGE"]
+coinName = ["ethereum","ethereum-classic","bitcoin-cash","bitcoin-cash-sv","bitcoin","litecoin","zcash","neo","cardano","monero","thorchain", "dogecoin", "haven", "ethereum-name-service"]
+coinSuffix = ["ETH","ETC","BCH","BSV","BTC","LTC","ZEC","NEO","ADA","XMR","RUNE","DOGE", "XHV", "ENS"]
 
 #DIR
 logoGit="https://gitlab.com/nfl0/crypto-logos.git"
