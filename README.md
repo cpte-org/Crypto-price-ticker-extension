@@ -11,15 +11,17 @@ Available options
 
  - BTC
  - ETH
+ - Haven
+ - Ethereum Name Service
  - BCH
  - BSV
  - DOGE
  - LTC
+ - Monero
  - Zcash
  - Rune
  - NEO
  - Cardano
- - Monero
 
 Price data pulled from the reliable top notch Coingecko's v3 API (10 requests/second).
 
