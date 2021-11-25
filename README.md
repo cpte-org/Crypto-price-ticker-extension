@@ -9,16 +9,17 @@ Super lightweight minimalist browser extension that displays the current price i
 
 Available options
 
- - BTC
- - ETH
- - Haven
- - Ethereum Name Service
- - BCH
- - BSV
- - DOGE
- - LTC
- - Monero
+ - Bitcoin
+ - Ethereum
  - Zcash
+ - Luna
+ - Ethereum Name Service
+ - Haven
+ - Bitcoin Cash
+ - Bitcoin Satoshi Vision
+ - DOGE
+ - Litecoin
+ - Monero
  - Rune
  - NEO
  - Cardano
