@@ -10,18 +10,23 @@ Super lightweight minimalist browser extension that displays the current price i
 Available options
 
  - Bitcoin
+ - Bitcoin Cash
  - Ethereum
  - Zcash
+ - Solana
+ - Fantom
+ - Polkadot
+ - Avalanche
+ - Polygon
+ - Cosmos
+ - Tezos
+ - Kusama
+ - Moonriver
  - Luna
- - Ethereum Name Service
- - Haven
- - Bitcoin Cash
- - Bitcoin Satoshi Vision
  - DOGE
  - Litecoin
  - Monero
  - Rune
- - NEO
  - Cardano
 
 Price data pulled from the reliable top notch Coingecko's v3 API (10 requests/second).
@@ -37,8 +42,6 @@ Opera - https://addons.opera.com/en/extensions/details/just-bitcoin-ticker-pro/
 `pip install slimit`
 
 TO-DO(s):
-
-* Manifest V3 migration
 
 * Create "options" page:
     * Select Price source (API)
