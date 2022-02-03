@@ -1,6 +1,6 @@
 {
   "manifest_version": 3,
-  "name": "Just Bitcoin Ticker [PRO]",
+  "name": "Just Avalanche Ticker [PRO]",
   "version": "2.0.4",
   "icons": {
     "16": "icon-16.png",
@@ -12,12 +12,10 @@
   "permissions": [
     "storage"
   ],
-  "browser_action": {
+  "action": {
     "default_icon": "icon-48.png"
   },
   "background": {
-    "service_worker": [
-      "background.js"
-    ]
+    "service_worker": "background.js"
   }
 }

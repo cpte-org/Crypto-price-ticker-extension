@@ -18,6 +18,7 @@ import time
 
 #Coins names
 coinName = ["ethereum","ethereum-classic","bitcoin-cash","bitcoin-cash-sv","bitcoin","litecoin","zcash","neo","cardano","monero","thorchain","dogecoin","haven","ethereum-name-service","terra-luna","solana","fantom","polkadot","avalanche","polygon","cosmos","tezos","kusama","kadena","moonriver"]
+coinNameApi = ["ethereum","ethereum-classic","bitcoin-cash","bitcoin-cash-sv","bitcoin","litecoin","zcash","neo","cardano","monero","thorchain","dogecoin","haven","ethereum-name-service","terra-luna","solana","fantom","polkadot","avalanche-2","polygon","cosmos","tezos","kusama","kadena","moonriver"]
 coinSuffix = ["ETH","ETC","BCH","BSV","BTC","LTC","ZEC","NEO","ADA","XMR","RUNE","DOGE","XHV","ENS","LUNA","SOL","FTM","POL","AVA","MATIC","ATOM","XTZ","KSM","KDA","MOVR"]
 
 #DIR
@@ -62,7 +63,7 @@ for num, folder in enumerate(coinSuffix, start=0):
 			#for each line in the first input file
 		for line in jsIn:
 			#read replace the string and write to output file
-			jsOut.write(line.replace("bitcoin", coinName[num]))
+			jsOut.write(line.replace("bitcoin", coinNameApi[num]))
 
 			#for each line in the second input file
 		for line1 in jsonIn:

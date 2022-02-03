@@ -32,60 +32,70 @@ var localStore = chrome.storage.local;
 
     function updateBadge() {
         localStore.get(['toggle'], (item) =>toggle = item.toggle);
-        var xhr = new XMLHttpRequest();
-        xhr.open("GET", "https://api.coingecko.com/api/v3/simple/price?ids=bitcoin&vs_currencies=usd", true);
-        xhr.onreadystatechange = function() {
-            if (xhr.readyState == 4 && xhr.status == 200) {
-                var response = JSON.parse(xhr.responseText);
-                price = response['bitcoin'].usd;
-                
-                chrome.browserAction.setBadgeText({
-                    text: formatPrice(price).toString()
-                });
-                chrome.browserAction.setTitle({
-                    title: String(price)
-                });
 
-            }
+        fetch('https://api.coingecko.com/api/v3/simple/price?ids=bitcoin&vs_currencies=usd')
+          .then(response => response.text())
+          .then(data => {
+            let dataObj = JSON.parse(data);
+            price = dataObj['bitcoin'].usd;
+            chrome.action.setBadgeText({
+                text: formatPrice(price).toString()
+            });
+            chrome.action.setTitle({
+                title: String(price)
+            });
             if (price >= prevPrice) {
                 setupBadge(up);
             } else {
                 setupBadge(!up);
             }
             prevPrice = price;
-        };
-        xhr.send();
+          })
+          .catch(error => {
+                console.log("error", error);
+                chrome.action.setBadgeText({
+                text: "x_x"
+                });
+                chrome.action.setTitle({
+                    title: String(error)
+                });
+        });
+
     }
 
     function setupInterval() {
+        setInterval(updateBadge, 60000);
+        /*
         window.setInterval(function() {
             updateBadge();
         }, 60000);
+        */
     }
 
     function setupBadge(up) {
         if (up) {
             setTimeout(function() {
-                chrome.browserAction.setBadgeBackgroundColor({
+                chrome.action.setBadgeBackgroundColor({
                     color: "#009E73"
                 });
             }, 1000);
         } else {
             setTimeout(function() {
-                chrome.browserAction.setBadgeBackgroundColor({
+                chrome.action.setBadgeBackgroundColor({
                     color: "#ff0000"
                 });
             }, 1000);
         }
-        chrome.browserAction.setBadgeBackgroundColor({
+        chrome.action.setBadgeBackgroundColor({
             color: "#f9a43f"
         });
     }
 
-    chrome.browserAction.onClicked.addListener(function(tab) {
+    chrome.action.onClicked.addListener(function(tab) {
         setToggle(!toggle);
         updateBadge();
     });
+
     updateBadge();
     setupInterval();
 })();
