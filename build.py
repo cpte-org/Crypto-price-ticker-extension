@@ -69,7 +69,7 @@ for num, folder in enumerate(coinSuffix, start=0):
 		for line1 in jsonIn:
 			#read replace the string and write to output file
 			line1=line1.replace("Bitcoin", coinName[num].replace("-", " ").title())
-			line1=line1.replace("2.0.3", "2.0.4")
+			line1=line1.replace("2.0.4", "2.1.0")
 			jsonOut.write(line1)
 			
 		#close input and output files
