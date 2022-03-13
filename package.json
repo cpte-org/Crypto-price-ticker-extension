@@ -1,0 +1,24 @@
+{
+  "name": "crypto-price-ticker-extension",
+  "version": "2.1.0",
+  "description": "",
+  "main": "deploy.js",
+  "scripts": {
+    "start": "node deploy.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cpte-org/Crypto-price-ticker-extension.git"
+  },
+  "author": "nfl0",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cpte-org/Crypto-price-ticker-extension/issues"
+  },
+  "homepage": "https://github.com/cpte-org/Crypto-price-ticker-extension#readme",
+  "dependencies": {
+    "web-ext-deploy": "^0.7.15"
+  },
+  "type": "module"
+}

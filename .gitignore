@@ -1,7 +1,12 @@
 # OS generated files #
 ######################
 .*
+.env
 !/.gitignore
 ehthumbs.db
 Thumbs.db
 OLD_./
+
+node_modules/
+deploy.js
+package-lock.json
