@@ -2,10 +2,10 @@ import os
 import shutil
 from git import Repo
 from datetime import datetime
+import requests
 from os.path import basename
 from zipfile import ZipFile
 import time
-from jsmin import jsmin
 
 # Coin data
 coins = [
@@ -141,11 +141,13 @@ for index, coin in enumerate(coins, start=1):
 
         # Minify background.js
         try:
-            with open(coin_folder + "background.js", "rt") as js_in:
-                minified_js = jsmin(js_in.read())  # Use jsmin to minify JavaScript
+            url = 'https://www.toptal.com/developers/javascript-minifier/api/raw'
+            data = {'input': open(coin_folder + "background.js", 'rb').read()}
+            response = requests.post(url, data=data).text
+
             # Write minified background.js
             with open(coin_folder + "background.js", "wt") as js_out:
-                js_out.write(minified_js)
+                js_out.write(response)
         except Exception as e:
             print(f"[ERROR] - Failed to minify background.js for coin {coin['name']}: {e}")
             print("[INFO] - Reverting changes...")
