@@ -10,7 +10,8 @@
     "128": "icon-128.png"
   },
   "permissions": [
-    "storage"
+    "storage",
+    "alarms"
   ],
   "action": {
     "default_icon": "icon-48.png"
