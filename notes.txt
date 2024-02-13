@@ -1,0 +1,4 @@
+todo: 
+  - chrome store items auto-updater script
+    - https://github.com/fregante/chrome-webstore-upload
+    - https://github.com/fregante/chrome-webstore-upload-keys
