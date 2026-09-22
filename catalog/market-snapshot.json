@@ -1,0 +1,194 @@
+[
+  {
+    "id": "bitcoin",
+    "rank": 1,
+    "marketCapUsd": 1726000306227,
+    "updatedAt": "2026-09-22T10:55:20.000Z"
+  },
+  {
+    "id": "ethereum",
+    "rank": 2,
+    "marketCapUsd": 334947036780,
+    "updatedAt": "2026-09-22T10:55:20.000Z"
+  },
+  {
+    "id": "zcash",
+    "rank": 9,
+    "marketCapUsd": 25455173975,
+    "updatedAt": "2026-09-22T10:55:20.000Z"
+  },
+  {
+    "id": "solana",
+    "rank": 7,
+    "marketCapUsd": 68642396280,
+    "updatedAt": "2026-09-22T10:55:20.000Z"
+  },
+  {
+    "id": "polygon-ecosystem-token",
+    "rank": 74,
+    "marketCapUsd": 1160401647,
+    "updatedAt": "2026-09-22T10:55:20.000Z"
+  },
+  {
+    "id": "polkadot",
+    "rank": 52,
+    "marketCapUsd": 1983578430,
+    "updatedAt": "2026-09-22T10:55:20.000Z"
+  },
+  {
+    "id": "dogecoin",
+    "rank": 12,
+    "marketCapUsd": 15260751920,
+    "updatedAt": "2026-09-22T10:55:20.000Z"
+  },
+  {
+    "id": "avalanche-2",
+    "rank": 25,
+    "marketCapUsd": 4835841834,
+    "updatedAt": "2026-09-22T10:55:20.000Z"
+  },
+  {
+    "id": "cardano",
+    "rank": 18,
+    "marketCapUsd": 9205934526,
+    "updatedAt": "2026-09-22T10:55:20.000Z"
+  },
+  {
+    "id": "near",
+    "rank": 21,
+    "marketCapUsd": 5884256565,
+    "updatedAt": "2026-09-22T10:55:20.000Z"
+  },
+  {
+    "id": "binancecoin",
+    "rank": 4,
+    "marketCapUsd": 104825614910,
+    "updatedAt": "2026-09-22T10:55:20.000Z"
+  },
+  {
+    "id": "ripple",
+    "rank": 5,
+    "marketCapUsd": 96309472748,
+    "updatedAt": "2026-09-22T10:55:20.000Z"
+  },
+  {
+    "id": "tron",
+    "rank": 8,
+    "marketCapUsd": 32897949809,
+    "updatedAt": "2026-09-22T10:55:20.000Z"
+  },
+  {
+    "id": "hyperliquid",
+    "rank": 11,
+    "marketCapUsd": 21188548414,
+    "updatedAt": "2026-09-22T10:55:20.000Z"
+  },
+  {
+    "id": "chainlink",
+    "rank": 15,
+    "marketCapUsd": 9661257295,
+    "updatedAt": "2026-09-22T10:55:20.000Z"
+  },
+  {
+    "id": "stellar",
+    "rank": 20,
+    "marketCapUsd": 7329758693,
+    "updatedAt": "2026-09-22T10:55:20.000Z"
+  },
+  {
+    "id": "uniswap",
+    "rank": 22,
+    "marketCapUsd": 5443923592,
+    "updatedAt": "2026-09-22T10:55:20.000Z"
+  },
+  {
+    "id": "bitcoin-cash",
+    "rank": 23,
+    "marketCapUsd": 5422198184,
+    "updatedAt": "2026-09-22T10:55:20.000Z"
+  },
+  {
+    "id": "litecoin",
+    "rank": 27,
+    "marketCapUsd": 4665673725,
+    "updatedAt": "2026-09-22T10:55:20.000Z"
+  },
+  {
+    "id": "sui",
+    "rank": 30,
+    "marketCapUsd": 4143499586,
+    "updatedAt": "2026-09-22T10:55:20.000Z"
+  },
+  {
+    "id": "hedera-hashgraph",
+    "rank": 31,
+    "marketCapUsd": 4101365939,
+    "updatedAt": "2026-09-22T10:55:20.000Z"
+  },
+  {
+    "id": "the-open-network",
+    "rank": 32,
+    "marketCapUsd": 3985414216,
+    "updatedAt": "2026-09-22T10:55:20.000Z"
+  },
+  {
+    "id": "bittensor",
+    "rank": 33,
+    "marketCapUsd": 3565661059,
+    "updatedAt": "2026-09-22T10:55:20.000Z"
+  },
+  {
+    "id": "shiba-inu",
+    "rank": 34,
+    "marketCapUsd": 3529543671,
+    "updatedAt": "2026-09-22T10:55:20.000Z"
+  },
+  {
+    "id": "crypto-com-chain",
+    "rank": 36,
+    "marketCapUsd": 3251373019,
+    "updatedAt": "2026-09-22T10:55:20.000Z"
+  },
+  {
+    "id": "aave",
+    "rank": 46,
+    "marketCapUsd": 2172485407,
+    "updatedAt": "2026-09-22T10:55:20.000Z"
+  },
+  {
+    "id": "mantle",
+    "rank": 48,
+    "marketCapUsd": 2132975535,
+    "updatedAt": "2026-09-22T10:55:20.000Z"
+  },
+  {
+    "id": "ondo-finance",
+    "rank": 50,
+    "marketCapUsd": 2094901073,
+    "updatedAt": "2026-09-22T10:55:20.000Z"
+  },
+  {
+    "id": "pepe",
+    "rank": 51,
+    "marketCapUsd": 2068750777,
+    "updatedAt": "2026-09-22T10:55:20.000Z"
+  },
+  {
+    "id": "internet-computer",
+    "rank": 58,
+    "marketCapUsd": 1632880786,
+    "updatedAt": "2026-09-22T10:55:20.000Z"
+  },
+  {
+    "id": "arbitrum",
+    "rank": 63,
+    "marketCapUsd": 1477668265,
+    "updatedAt": "2026-09-22T10:55:20.000Z"
+  },
+  {
+    "id": "cosmos",
+    "rank": 84,
+    "marketCapUsd": 932004059,
+    "updatedAt": "2026-09-22T10:55:20.000Z"
+  }
+]

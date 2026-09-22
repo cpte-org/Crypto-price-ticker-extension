@@ -1,0 +1,661 @@
+{
+  "snapshotDate": "2026-09-22",
+  "rankingSource": "https://api.coingecko.com/api/v3/coins/markets?vs_currency=usd&order=market_cap_desc&per_page=100&page=1",
+  "selection": "32 curated popular cryptocurrencies, including the ten fixed Chrome targets. Excludes stablecoins and the owner-specified assets.",
+  "coins": [
+    {
+      "id": "bitcoin",
+      "name": "Bitcoin",
+      "symbol": "BTC",
+      "providerId": "bitcoin",
+      "marketCapRank": 1,
+      "chrome": {
+        "target": true,
+        "id": "edocckdppcejnpljkgohkdgniefflgfo",
+        "status": "pending_review",
+        "statusSource": "owner",
+        "statusUpdatedAt": "2026-09-22"
+      },
+      "firefoxId": "bitcoin@cpte.org",
+      "logo": {
+        "file": "assets/logos/bitcoin.png",
+        "source": "https://coin-images.coingecko.com/coins/images/1/large/bitcoin.png?1696501400",
+        "retrievedAt": "2026-09-22",
+        "sha256": "c535f4bc3b902f4d49de4ff4b22e71a39e37820ab76dcc5363336012fa665f8e"
+      },
+      "opera": {
+        "url": "https://addons.opera.com/en/extensions/details/just-bitcoin-ticker-pro/",
+        "verifiedAt": "2026-09-22"
+      }
+    },
+    {
+      "id": "ethereum",
+      "name": "Ethereum",
+      "symbol": "ETH",
+      "providerId": "ethereum",
+      "marketCapRank": 2,
+      "chrome": {
+        "target": true,
+        "id": "dgafljegcabiiplpjmfcepmndcabcgpm",
+        "status": "published",
+        "verifiedAt": "2026-09-22",
+        "verifiedVersion": "3.0.0"
+      },
+      "firefoxId": "ethereum@cpte.org",
+      "logo": {
+        "file": "assets/logos/ethereum.png",
+        "source": "https://coin-images.coingecko.com/coins/images/279/large/ethereum.png?1696501628",
+        "retrievedAt": "2026-09-22",
+        "sha256": "0b0daaf781011c0e2f5ad3e80ab12754621f21602811c681d7fe3008d4e6c840"
+      },
+      "opera": {
+        "url": "https://addons.opera.com/en/extensions/details/just-ethereum-ticker-pro/",
+        "verifiedAt": "2026-09-22"
+      }
+    },
+    {
+      "id": "zcash",
+      "name": "Zcash",
+      "symbol": "ZEC",
+      "providerId": "zcash",
+      "marketCapRank": 9,
+      "chrome": {
+        "target": true,
+        "id": "glopllgnheolomicjjhiceipcdonpoae",
+        "status": "published",
+        "verifiedAt": "2026-09-22",
+        "verifiedVersion": "3.0.0"
+      },
+      "firefoxId": "zcash@cpte.org",
+      "logo": {
+        "file": "assets/logos/zcash.png",
+        "source": "https://coin-images.coingecko.com/coins/images/486/large/Brandmark-Yellow_%281%29.png?1785810558",
+        "retrievedAt": "2026-09-22",
+        "sha256": "31262246a51fe4bcac7bbc1e7853427b7efa4eb40c60dc43d1305f9127c92308"
+      },
+      "opera": {
+        "url": "https://addons.opera.com/en/extensions/details/just-zcash-ticker-pro/",
+        "verifiedAt": "2026-09-22"
+      }
+    },
+    {
+      "id": "solana",
+      "name": "Solana",
+      "symbol": "SOL",
+      "providerId": "solana",
+      "marketCapRank": 7,
+      "chrome": {
+        "target": true,
+        "id": "ijkgnghfcjkghhdkbgfjibooiflohcif",
+        "status": "published",
+        "verifiedAt": "2026-09-22",
+        "verifiedVersion": "3.0.0"
+      },
+      "firefoxId": "solana@cpte.org",
+      "logo": {
+        "file": "assets/logos/solana.png",
+        "source": "https://coin-images.coingecko.com/coins/images/4128/large/solana.png?1718769756",
+        "retrievedAt": "2026-09-22",
+        "sha256": "038013d48a19047819fedca271127c0437e565525376e845ba19e5bf9affb187"
+      }
+    },
+    {
+      "id": "polygon",
+      "name": "Polygon",
+      "symbol": "POL",
+      "providerId": "polygon-ecosystem-token",
+      "marketCapRank": 74,
+      "chrome": {
+        "target": true,
+        "id": "ofgicionacifegbldflkoaamkibgonfd",
+        "status": "published",
+        "verifiedAt": "2026-09-22",
+        "verifiedVersion": "3.0.0"
+      },
+      "firefoxId": "polygon@cpte.org",
+      "logo": {
+        "file": "assets/logos/polygon.png",
+        "source": "https://coin-images.coingecko.com/coins/images/32440/large/pol.png?1759114181",
+        "retrievedAt": "2026-09-22",
+        "sha256": "452e627d208f0ea829e2a900fdde028880d8c07d20a1a58d2f6a9dddb38e0aad"
+      }
+    },
+    {
+      "id": "polkadot",
+      "name": "Polkadot",
+      "symbol": "DOT",
+      "providerId": "polkadot",
+      "marketCapRank": 52,
+      "chrome": {
+        "target": true,
+        "id": "cmohhbkheacpenaieifolaffbldifdcb",
+        "status": "published",
+        "verifiedAt": "2026-09-22",
+        "verifiedVersion": "3.0.0"
+      },
+      "firefoxId": "polkadot@cpte.org",
+      "logo": {
+        "file": "assets/logos/polkadot.png",
+        "source": "https://coin-images.coingecko.com/coins/images/12171/large/polkadot.jpg?1766533446",
+        "retrievedAt": "2026-09-22",
+        "sha256": "b6a418f8429b4d498520b51499eaf9fa5538cde1dcb6d3160575880845c6e388"
+      }
+    },
+    {
+      "id": "dogecoin",
+      "name": "Dogecoin",
+      "symbol": "DOGE",
+      "providerId": "dogecoin",
+      "marketCapRank": 12,
+      "chrome": {
+        "target": true,
+        "id": "ganhfpkgiadcdpkechelfbmjhnonagel",
+        "status": "published",
+        "verifiedAt": "2026-09-22",
+        "verifiedVersion": "3.0.0"
+      },
+      "firefoxId": "dogecoin@cpte.org",
+      "logo": {
+        "file": "assets/logos/dogecoin.png",
+        "source": "https://coin-images.coingecko.com/coins/images/5/large/dogecoin.png?1696501409",
+        "retrievedAt": "2026-09-22",
+        "sha256": "10b880af939f354ab683527c38fbeb54c8f60873d6fadcc6180dbe95ccb7d837"
+      }
+    },
+    {
+      "id": "avalanche",
+      "name": "Avalanche",
+      "symbol": "AVAX",
+      "providerId": "avalanche-2",
+      "marketCapRank": 25,
+      "chrome": {
+        "target": true,
+        "id": "amjbppcggjdnpgbfhjmicmaneifodlld",
+        "status": "published",
+        "verifiedAt": "2026-09-22",
+        "verifiedVersion": "3.0.0"
+      },
+      "firefoxId": "avalanche@cpte.org",
+      "logo": {
+        "file": "assets/logos/avalanche.png",
+        "source": "https://coin-images.coingecko.com/coins/images/12559/large/Avalanche_Circle_RedWhite_Trans.png?1696512369",
+        "retrievedAt": "2026-09-22",
+        "sha256": "eee83d351019bd6c1199e350c87d037c256cd420e60ca3aedf865ac387188426"
+      }
+    },
+    {
+      "id": "cardano",
+      "name": "Cardano",
+      "symbol": "ADA",
+      "providerId": "cardano",
+      "marketCapRank": 18,
+      "chrome": {
+        "target": true,
+        "id": "acfodajggdfhmkgalgjijpbnpgnhpdeo",
+        "status": "published",
+        "verifiedAt": "2026-09-22",
+        "verifiedVersion": "3.0.0"
+      },
+      "firefoxId": "cardano@cpte.org",
+      "logo": {
+        "file": "assets/logos/cardano.png",
+        "source": "https://coin-images.coingecko.com/coins/images/975/large/cardano.png?1696502090",
+        "retrievedAt": "2026-09-22",
+        "sha256": "b4f22410fc2524961f7f989de9dba9a2afceb1f441a9b3b4157b81f3ad9aba9c"
+      },
+      "opera": {
+        "url": "https://addons.opera.com/en/extensions/details/just-cardano-ticker-pro/",
+        "verifiedAt": "2026-09-22"
+      }
+    },
+    {
+      "id": "near",
+      "name": "NEAR Protocol",
+      "symbol": "NEAR",
+      "providerId": "near",
+      "marketCapRank": 21,
+      "chrome": {
+        "target": true,
+        "id": "inpjbnddnhkoagnddjniomhnfandjkfa",
+        "status": "pending_review",
+        "statusSource": "owner",
+        "statusUpdatedAt": "2026-09-22"
+      },
+      "firefoxId": "near@cpte.org",
+      "logo": {
+        "file": "assets/logos/near.png",
+        "source": "https://coin-images.coingecko.com/coins/images/10365/large/near.jpg?1696510367",
+        "retrievedAt": "2026-09-22",
+        "sha256": "63ef5ed518847861a5511f58a0ea69477f9f55e33f56d2f141d1ce1440bb6b59"
+      }
+    },
+    {
+      "id": "binancecoin",
+      "name": "BNB",
+      "symbol": "BNB",
+      "providerId": "binancecoin",
+      "marketCapRank": 4,
+      "chrome": {
+        "target": false,
+        "id": null,
+        "status": "unpublished"
+      },
+      "firefoxId": "binancecoin@cpte.org",
+      "logo": {
+        "file": "assets/logos/binancecoin.png",
+        "source": "https://coin-images.coingecko.com/coins/images/825/large/bnb-icon2_2x.png?1696501970",
+        "retrievedAt": "2026-09-22",
+        "sha256": "07a9a6f4af730770c50c347a8cc68321b7394cc4d1cf5f7d467625eb03d6b19f"
+      }
+    },
+    {
+      "id": "ripple",
+      "name": "XRP",
+      "symbol": "XRP",
+      "providerId": "ripple",
+      "marketCapRank": 5,
+      "chrome": {
+        "target": false,
+        "id": null,
+        "status": "unpublished"
+      },
+      "firefoxId": "ripple@cpte.org",
+      "logo": {
+        "file": "assets/logos/ripple.png",
+        "source": "https://coin-images.coingecko.com/coins/images/44/large/xrp-symbol-white-128.png?1696501442",
+        "retrievedAt": "2026-09-22",
+        "sha256": "7e34640a50b76b5bb79ed83ac61ca4160c82a8cf13042c9f4d28b084883fef50"
+      }
+    },
+    {
+      "id": "tron",
+      "name": "TRON",
+      "symbol": "TRX",
+      "providerId": "tron",
+      "marketCapRank": 8,
+      "chrome": {
+        "target": false,
+        "id": null,
+        "status": "unpublished"
+      },
+      "firefoxId": "tron@cpte.org",
+      "logo": {
+        "file": "assets/logos/tron.png",
+        "source": "https://coin-images.coingecko.com/coins/images/1094/large/photo_2026-04-13_09-59-16.png?1776048311",
+        "retrievedAt": "2026-09-22",
+        "sha256": "e5967a05276b22046700cf3d2dbe1bc8c0cb4fe28335b6c4b0f40975c314713b"
+      }
+    },
+    {
+      "id": "hyperliquid",
+      "name": "Hyperliquid",
+      "symbol": "HYPE",
+      "providerId": "hyperliquid",
+      "marketCapRank": 11,
+      "chrome": {
+        "target": false,
+        "id": null,
+        "status": "unpublished"
+      },
+      "firefoxId": "hyperliquid@cpte.org",
+      "logo": {
+        "file": "assets/logos/hyperliquid.png",
+        "source": "https://coin-images.coingecko.com/coins/images/50882/large/hyperliquid.jpg?1729431300",
+        "retrievedAt": "2026-09-22",
+        "sha256": "157f6ca8fa3e770896abf40434eb533342c79d68566fb15f08a5e5686f12fb33"
+      }
+    },
+    {
+      "id": "chainlink",
+      "name": "Chainlink",
+      "symbol": "LINK",
+      "providerId": "chainlink",
+      "marketCapRank": 15,
+      "chrome": {
+        "target": false,
+        "id": null,
+        "status": "unpublished"
+      },
+      "firefoxId": "chainlink@cpte.org",
+      "logo": {
+        "file": "assets/logos/chainlink.png",
+        "source": "https://coin-images.coingecko.com/coins/images/877/large/Chainlink_Logo_500.png?1760023405",
+        "retrievedAt": "2026-09-22",
+        "sha256": "a5a31b836a8993bc8d29f98293ffaef9b62cd3d898451f348dc191439b6fca98"
+      }
+    },
+    {
+      "id": "stellar",
+      "name": "Stellar",
+      "symbol": "XLM",
+      "providerId": "stellar",
+      "marketCapRank": 20,
+      "chrome": {
+        "target": false,
+        "id": null,
+        "status": "unpublished"
+      },
+      "firefoxId": "stellar@cpte.org",
+      "logo": {
+        "file": "assets/logos/stellar.png",
+        "source": "https://coin-images.coingecko.com/coins/images/100/large/fmpFRHHQ_400x400.jpg?1735231350",
+        "retrievedAt": "2026-09-22",
+        "sha256": "e7db718e07bee726f4abef8d521e78d72d179a6c4efeb3fe6432b03bbfb1aeef"
+      }
+    },
+    {
+      "id": "uniswap",
+      "name": "Uniswap",
+      "symbol": "UNI",
+      "providerId": "uniswap",
+      "marketCapRank": 22,
+      "chrome": {
+        "target": false,
+        "id": null,
+        "status": "unpublished"
+      },
+      "firefoxId": "uniswap@cpte.org",
+      "logo": {
+        "file": "assets/logos/uniswap.png",
+        "source": "https://coin-images.coingecko.com/coins/images/12504/large/uniswap-logo.png?1720676669",
+        "retrievedAt": "2026-09-22",
+        "sha256": "73b0a3d91e7adfde99e3ad407dfb9daf496d8ddeca9ee73aa81e578a928608eb"
+      }
+    },
+    {
+      "id": "bitcoin-cash",
+      "name": "Bitcoin Cash",
+      "symbol": "BCH",
+      "providerId": "bitcoin-cash",
+      "marketCapRank": 23,
+      "chrome": {
+        "target": false,
+        "id": null,
+        "status": "unpublished"
+      },
+      "firefoxId": "bitcoin-cash@cpte.org",
+      "logo": {
+        "file": "assets/logos/bitcoin-cash.png",
+        "source": "https://coin-images.coingecko.com/coins/images/780/large/bitcoin-cash-circle.png?1696501932",
+        "retrievedAt": "2026-09-22",
+        "sha256": "015bf41e801ba52cac2c8aae16fbd2868893d3ced3fcc0e09fe08c924d1710d8"
+      }
+    },
+    {
+      "id": "litecoin",
+      "name": "Litecoin",
+      "symbol": "LTC",
+      "providerId": "litecoin",
+      "marketCapRank": 27,
+      "chrome": {
+        "target": false,
+        "id": null,
+        "status": "unpublished"
+      },
+      "firefoxId": "litecoin@cpte.org",
+      "logo": {
+        "file": "assets/logos/litecoin.png",
+        "source": "https://coin-images.coingecko.com/coins/images/2/large/litecoin.png?1696501400",
+        "retrievedAt": "2026-09-22",
+        "sha256": "875627cc51cfc1f1f46c288877b59dd608ff7bc1a649dcfc5adad9543b2f6999"
+      }
+    },
+    {
+      "id": "sui",
+      "name": "Sui",
+      "symbol": "SUI",
+      "providerId": "sui",
+      "marketCapRank": 30,
+      "chrome": {
+        "target": false,
+        "id": null,
+        "status": "unpublished"
+      },
+      "firefoxId": "sui@cpte.org",
+      "logo": {
+        "file": "assets/logos/sui.png",
+        "source": "https://coin-images.coingecko.com/coins/images/26375/large/sui-ocean-square.png?1727791290",
+        "retrievedAt": "2026-09-22",
+        "sha256": "7c0bea51d24e48366aa372a8a4df9b19f269f0aa3eac9b8ad3eb001824db8e55"
+      }
+    },
+    {
+      "id": "hedera-hashgraph",
+      "name": "Hedera",
+      "symbol": "HBAR",
+      "providerId": "hedera-hashgraph",
+      "marketCapRank": 31,
+      "chrome": {
+        "target": false,
+        "id": null,
+        "status": "unpublished"
+      },
+      "firefoxId": "hedera-hashgraph@cpte.org",
+      "logo": {
+        "file": "assets/logos/hedera-hashgraph.png",
+        "source": "https://coin-images.coingecko.com/coins/images/3688/large/hbar.png?1696504364",
+        "retrievedAt": "2026-09-22",
+        "sha256": "37a37d3065a7e19bac20deaa35ad5e86155ec337be0000860df794910c8ac548"
+      }
+    },
+    {
+      "id": "the-open-network",
+      "name": "Gram (prev. Toncoin)",
+      "symbol": "GRAM",
+      "providerId": "the-open-network",
+      "marketCapRank": 32,
+      "chrome": {
+        "target": false,
+        "id": null,
+        "status": "unpublished"
+      },
+      "firefoxId": "the-open-network@cpte.org",
+      "logo": {
+        "file": "assets/logos/the-open-network.png",
+        "source": "https://coin-images.coingecko.com/coins/images/17980/large/Gram_Circular_Badge.png?1781524778",
+        "retrievedAt": "2026-09-22",
+        "sha256": "10ee81c569554973571483a2a38d790150a59b8a2761d75d03618fabe4475664"
+      }
+    },
+    {
+      "id": "bittensor",
+      "name": "Bittensor",
+      "symbol": "TAO",
+      "providerId": "bittensor",
+      "marketCapRank": 33,
+      "chrome": {
+        "target": false,
+        "id": null,
+        "status": "unpublished"
+      },
+      "firefoxId": "bittensor@cpte.org",
+      "logo": {
+        "file": "assets/logos/bittensor.png",
+        "source": "https://coin-images.coingecko.com/coins/images/28452/large/ARUsPeNQ_400x400.jpeg?1696527447",
+        "retrievedAt": "2026-09-22",
+        "sha256": "d8d5679ef1096e7aff14b605cefd5502b8ee2b8938d2f233fad66be8cd32cd95"
+      }
+    },
+    {
+      "id": "shiba-inu",
+      "name": "Shiba Inu",
+      "symbol": "SHIB",
+      "providerId": "shiba-inu",
+      "marketCapRank": 34,
+      "chrome": {
+        "target": false,
+        "id": null,
+        "status": "unpublished"
+      },
+      "firefoxId": "shiba-inu@cpte.org",
+      "logo": {
+        "file": "assets/logos/shiba-inu.png",
+        "source": "https://coin-images.coingecko.com/coins/images/11939/large/shiba.png?1696511800",
+        "retrievedAt": "2026-09-22",
+        "sha256": "3e010aed8bd0923c60d474d17b57fbfc92b2480349d8906226468a7fb6813ec4"
+      }
+    },
+    {
+      "id": "crypto-com-chain",
+      "name": "Cronos",
+      "symbol": "CRO",
+      "providerId": "crypto-com-chain",
+      "marketCapRank": 36,
+      "chrome": {
+        "target": false,
+        "id": null,
+        "status": "unpublished"
+      },
+      "firefoxId": "crypto-com-chain@cpte.org",
+      "logo": {
+        "file": "assets/logos/crypto-com-chain.png",
+        "source": "https://coin-images.coingecko.com/coins/images/7310/large/cro_token_logo.png?1696507599",
+        "retrievedAt": "2026-09-22",
+        "sha256": "8f69826c6d375e443a4d8fcb85cb24aac5dd164eabd64c03b74f61d765ecea42"
+      }
+    },
+    {
+      "id": "aave",
+      "name": "Aave",
+      "symbol": "AAVE",
+      "providerId": "aave",
+      "marketCapRank": 46,
+      "chrome": {
+        "target": false,
+        "id": null,
+        "status": "unpublished"
+      },
+      "firefoxId": "aave@cpte.org",
+      "logo": {
+        "file": "assets/logos/aave.png",
+        "source": "https://coin-images.coingecko.com/coins/images/12645/large/aave-token-round.png?1720472354",
+        "retrievedAt": "2026-09-22",
+        "sha256": "5a78b5dd43de418d792e447e0e8d7618494b1fa723dbe3912571856dc6a5cadc"
+      }
+    },
+    {
+      "id": "mantle",
+      "name": "Mantle",
+      "symbol": "MNT",
+      "providerId": "mantle",
+      "marketCapRank": 48,
+      "chrome": {
+        "target": false,
+        "id": null,
+        "status": "unpublished"
+      },
+      "firefoxId": "mantle@cpte.org",
+      "logo": {
+        "file": "assets/logos/mantle.png",
+        "source": "https://coin-images.coingecko.com/coins/images/30980/large/MNT_Token_Logo.png?1765516974",
+        "retrievedAt": "2026-09-22",
+        "sha256": "ebde8ca7eb7b235eae943faedc161d9382450038d189daf6e202d7b2a1666f8d"
+      }
+    },
+    {
+      "id": "ondo-finance",
+      "name": "Ondo",
+      "symbol": "ONDO",
+      "providerId": "ondo-finance",
+      "marketCapRank": 50,
+      "chrome": {
+        "target": false,
+        "id": null,
+        "status": "unpublished"
+      },
+      "firefoxId": "ondo-finance@cpte.org",
+      "logo": {
+        "file": "assets/logos/ondo-finance.png",
+        "source": "https://coin-images.coingecko.com/coins/images/26580/large/ONDO.png?1696525656",
+        "retrievedAt": "2026-09-22",
+        "sha256": "08d0001bb9063582acd54482878ff48fdbd43a6ac7120bbc0541ff646dace10f"
+      }
+    },
+    {
+      "id": "pepe",
+      "name": "Pepe",
+      "symbol": "PEPE",
+      "providerId": "pepe",
+      "marketCapRank": 51,
+      "chrome": {
+        "target": false,
+        "id": null,
+        "status": "unpublished"
+      },
+      "firefoxId": "pepe@cpte.org",
+      "logo": {
+        "file": "assets/logos/pepe.png",
+        "source": "https://coin-images.coingecko.com/coins/images/29850/large/pepe-token.jpeg?1696528776",
+        "retrievedAt": "2026-09-22",
+        "sha256": "3f3a2ccae2bc6445f6fe54b888c79def7bd31e65782f4a49fa9830025883ec68"
+      }
+    },
+    {
+      "id": "internet-computer",
+      "name": "Internet Computer",
+      "symbol": "ICP",
+      "providerId": "internet-computer",
+      "marketCapRank": 58,
+      "chrome": {
+        "target": false,
+        "id": null,
+        "status": "unpublished"
+      },
+      "firefoxId": "internet-computer@cpte.org",
+      "logo": {
+        "file": "assets/logos/internet-computer.png",
+        "source": "https://coin-images.coingecko.com/coins/images/14495/large/Internet_Computer_logo.png?1696514180",
+        "retrievedAt": "2026-09-22",
+        "sha256": "00184fe66c76282dfe649776b58aa9867fddb2e0d5483df03623e24dd616b198"
+      }
+    },
+    {
+      "id": "arbitrum",
+      "name": "Arbitrum",
+      "symbol": "ARB",
+      "providerId": "arbitrum",
+      "marketCapRank": 63,
+      "chrome": {
+        "target": false,
+        "id": null,
+        "status": "unpublished"
+      },
+      "firefoxId": "arbitrum@cpte.org",
+      "logo": {
+        "file": "assets/logos/arbitrum.png",
+        "source": "https://coin-images.coingecko.com/coins/images/16547/large/arb.jpg?1721358242",
+        "retrievedAt": "2026-09-22",
+        "sha256": "21df6529938627754ec43a96fc0f5fd8a23efc533027401f9f088eed5aa45c9e"
+      }
+    },
+    {
+      "id": "cosmos",
+      "name": "Cosmos Hub",
+      "symbol": "ATOM",
+      "providerId": "cosmos",
+      "marketCapRank": 84,
+      "chrome": {
+        "target": false,
+        "id": null,
+        "status": "unpublished"
+      },
+      "firefoxId": "cosmos@cpte.org",
+      "logo": {
+        "file": "assets/logos/cosmos.png",
+        "source": "https://coin-images.coingecko.com/coins/images/1481/large/cosmos_hub.png?1696502525",
+        "retrievedAt": "2026-09-22",
+        "sha256": "d3fba61c121613d3f13b954e17884df7391529628fa6022fff49d82155afe4de"
+      }
+    }
+  ],
+  "excludedProviderIds": [
+    "canton-network",
+    "figure-heloc",
+    "leo-token",
+    "monero",
+    "rain",
+    "usd-coin",
+    "whitebit"
+  ],
+  "stablecoinClassificationSource": "https://api.coingecko.com/api/v3/coins/markets?vs_currency=usd&category=stablecoins&order=market_cap_desc&per_page=250&page=1"
+}

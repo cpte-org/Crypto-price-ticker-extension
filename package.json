@@ -1,24 +1,29 @@
 {
-  "name": "crypto-price-ticker-extension",
-  "version": "2.1.0",
-  "description": "",
-  "main": "deploy.js",
+  "name": "coin-price-ticker",
+  "version": "4.0.0",
+  "private": true,
+  "type": "module",
+  "description": "One coin. One price. Browser toolbar tickers.",
+  "license": "GPL-3.0-only",
+  "engines": {
+    "node": ">=22"
+  },
   "scripts": {
-    "start": "node deploy.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "node scripts/build.js",
+    "test": "node --test tests/*.test.js",
+    "check": "npm run format:check && npm test && npm run build && node scripts/check.js",
+    "preview": "node scripts/preview.js",
+    "publish:chrome": "node scripts/publish-chrome.js",
+    "sync:website": "node scripts/sync-website.js",
+    "format": "prettier --write extension scripts tests catalog package.json package-lock.json .github/workflows site/styles.css",
+    "format:check": "prettier --check extension scripts tests catalog package.json package-lock.json .github/workflows site/styles.css",
+    "test:browser": "node scripts/browser-smoke.js"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/cpte-org/Crypto-price-ticker-extension.git"
-  },
-  "author": "nfl0",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/cpte-org/Crypto-price-ticker-extension/issues"
-  },
-  "homepage": "https://github.com/cpte-org/Crypto-price-ticker-extension#readme",
-  "dependencies": {
-    "web-ext-deploy": "^0.7.15"
-  },
-  "type": "module"
+  "devDependencies": {
+    "chrome-webstore-upload": "6.0.0",
+    "esbuild": "0.25.12",
+    "fflate": "0.8.3",
+    "prettier": "3.9.8",
+    "sharp": "0.35.4"
+  }
 }

@@ -1,0 +1,56 @@
+name: Chrome Web Store
+on:
+  workflow_dispatch:
+    inputs:
+      coins:
+        description: 'Comma-separated allowed coin IDs'
+        required: true
+        default: 'ethereum,zcash,solana,polygon,polkadot,dogecoin,avalanche,cardano'
+      allow_unverified:
+        description: 'Allow an inspected listing awaiting publication'
+        type: boolean
+        default: false
+      publish:
+        description: 'Submit uploaded drafts for publication'
+        type: boolean
+        default: false
+permissions:
+  contents: read
+concurrency:
+  group: chrome-web-store
+  cancel-in-progress: false
+jobs:
+  upload:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 20
+    environment: chrome-web-store
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
+      - uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020 # v4
+        with:
+          node-version: '22'
+          cache: npm
+      - run: npm ci
+      - run: npm test
+      - name: Require the selected release tag
+        run: node --input-type=module -e 'import fs from "node:fs"; if (process.env.GITHUB_REF_TYPE !== "tag" || process.env.GITHUB_REF_NAME !== "v" + JSON.parse(fs.readFileSync("package.json")).version) process.exit(1)'
+      - name: Download the existing release artifacts
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          VERSION=$(node -p 'JSON.parse(require("fs").readFileSync("package.json")).version')
+          gh release download "v$VERSION" --dir dist/packages
+      - name: Preflight, upload and optionally submit
+        env:
+          COINS: ${{ inputs.coins }}
+          PUBLISH: ${{ inputs.publish }}
+          ALLOW_UNVERIFIED: ${{ inputs.allow_unverified }}
+          CWS_PUBLISHER_ID: ${{ secrets.CWS_PUBLISHER_ID }}
+          CWS_CLIENT_ID: ${{ secrets.CWS_CLIENT_ID }}
+          CWS_CLIENT_SECRET: ${{ secrets.CWS_CLIENT_SECRET }}
+          CWS_REFRESH_TOKEN: ${{ secrets.CWS_REFRESH_TOKEN }}
+        run: |
+          EXTRA=()
+          if [ "$ALLOW_UNVERIFIED" = true ]; then EXTRA+=(--allow-unverified); fi
+          if [ "$PUBLISH" = true ]; then EXTRA+=(--publish); fi
+          npm run publish:chrome -- "--coins=$COINS" --execute "${EXTRA[@]}"

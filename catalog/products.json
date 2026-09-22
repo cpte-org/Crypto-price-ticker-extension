@@ -1,0 +1,37 @@
+[
+  {
+    "id": "ticker",
+    "name": "Just Price Ticker",
+    "navDetail": "Browser price tickers",
+    "path": "index.html"
+  },
+  {
+    "id": "extos",
+    "name": "extOS",
+    "navDetail": "Linux in your browser",
+    "path": "browser-linux.html",
+    "description": "An Alpine Linux terminal in a Chrome tab.",
+    "platform": "Chrome",
+    "storeUrl": "https://chromewebstore.google.com/detail/extos/bodnnlfejnhfpmldjcbiencknfghdgfk",
+    "storeLabel": "Add to Chrome",
+    "sourceUrl": "https://github.com/nfl0/extOS",
+    "privacyUrl": "https://cpte-org.github.io/extos-privacy.html",
+    "features": ["Full-tab terminal", "Saved sessions", "SSH & network tools"],
+    "note": "Networking requires a relay you configure.",
+    "verifiedAt": "2026-09-22"
+  },
+  {
+    "id": "kde",
+    "name": "Multi-Coin Monitor",
+    "listingName": "Multi-Coin Price Monitor",
+    "navDetail": "KDE Plasma widget",
+    "path": "kde-monitor.html",
+    "description": "Multiple coin prices on your Plasma panel or desktop.",
+    "platform": "KDE Plasma 6",
+    "storeUrl": "https://store.kde.org/p/2127626",
+    "storeLabel": "Get on KDE Store",
+    "features": ["Multiple coins", "Live prices", "Price alerts"],
+    "verifiedAt": "2026-09-22",
+    "verificationSource": "https://api.kde-look.org/ocs/v1/content/data/2127626"
+  }
+]
